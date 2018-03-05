@@ -11,6 +11,13 @@ public class Fecha
         año = nuevoAño;
     }
     
+    public Fecha(int nuevoDia,int nuevoMes) {
+    	
+    	dia= nuevoDia;
+    	mes= nuevoMes;
+    	
+    }
+    
     public void imprimir() {
         System.out.printf("%d/%d/%d", dia, mes, año);
     }

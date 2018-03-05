@@ -1,4 +1,5 @@
 package temperaturas;
+
 import javax.swing.JOptionPane;
 
 import fechas.Fecha;
@@ -199,9 +200,7 @@ public static int fechaEntero(int dia,int mes,int año) {
 		 
 		dias_totales+=dias_meses[i];
 		
-		System.out.println(dias_meses[i]);
 		
-		System.out.println(dias_totales);
 		 
 	 }
 	
