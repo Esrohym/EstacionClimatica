@@ -129,7 +129,7 @@ public class EstacionClimatica
      boolean error = true;
      do {
      
-    	 fecha =(fechaSelect());
+    	 fecha =fechaSelect();
 
      if (fechaOK(fecha) ) {
           
