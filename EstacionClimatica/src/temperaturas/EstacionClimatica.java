@@ -201,8 +201,7 @@ public static int fechaEntero(int dia,int mes,int año) {
 		dias_totales+=dias_meses[i];
 		
 		
-		 
-	 }
+	}
 	
 	if(año%4==0 && mes>2) {
 		
